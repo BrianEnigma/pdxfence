@@ -1,6 +1,10 @@
+# Overview
 
+`pdxfence` is a single-purpose website used to calculate and display the fines that the city of Portland has levied against the federal government for “The Fence.” More background information is in the index.html.
 
+# License
 
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is copyright © 2020 [Brian Enigma](https://brianenigma.com) and is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 # Finding a T-0
 
@@ -27,9 +31,12 @@ With a bit of math: `$192,000 / $500 dollars per 15-minues / 4 (15-minute chunks
 
 Another data point we have is [a PBOT news release about the barrier covering the bike lane](https://content.govdelivery.com/accounts/ORPORTLAND/bulletins/296f26a), which points to [a cease and desist letter](https://www.portland.gov/sites/default/files/2020-07/pbot-director-warner-to-gsa-region-10-administrator-atwood-2020-07-23.pdf?utm_medium=email&utm_source=govdelivery), dated July 23rd. But again, no specific time from which we can start counting our 15-minute increments.
 
-Based on the above, I am arbitrarily picking noon on the 23rd as the origin time. If anyone has a more accurate and official origin time, please contact me at brian@netninja.com.
+Based on the above, I am arbitrarily picking noon on the 23rd as the origin time. If anyone has a more accurate and official origin time, please contact me at `brian@netninja.com`.
 
 # Calculating The Fee
 
-$500 per 15 minutes divides out to $56¢ per second. From there, it's just calculating the delta from T-0 until now and multiplying that by 56¢.
+$500 per 15 minutes divides out to 56.666&#x305;¢ per second. From there, it's just calculating the delta from T-0 until now and multiplying that by 56¢.
 
+# Pull Requests
+
+I welcome pull requests.
