@@ -40,3 +40,8 @@ $500 per 15 minutes divides out to 56.666&#x305;¢ per second. From there, it's 
 # Pull Requests
 
 I welcome pull requests.
+
+# Contributors
+
+- [Brian Enigma](https://netninja.com) : Basic site design and coding.
+- [Christine Rose](https://christinerose.wordpress.com) : Wordsmithing.
