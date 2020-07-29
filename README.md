@@ -31,7 +31,9 @@ With a bit of math: `$192,000 / $500 dollars per 15-minues / 4 (15-minute chunks
 
 Another data point we have is [a PBOT news release about the barrier covering the bike lane](https://content.govdelivery.com/accounts/ORPORTLAND/bulletins/296f26a), which points to [a cease and desist letter](https://www.portland.gov/sites/default/files/2020-07/pbot-director-warner-to-gsa-region-10-administrator-atwood-2020-07-23.pdf?utm_medium=email&utm_source=govdelivery), dated July 23rd. But again, no specific time from which we can start counting our 15-minute increments.
 
-Based on the above, I am arbitrarily picking noon on the 23rd as the origin time. If anyone has a more accurate and official origin time, please contact me at `brian@netninja.com`.
+~~Based on the above, I am arbitrarily picking noon on the 23rd as the origin time. If anyone has a more accurate and official origin time, please contact me at `brian@netninja.com`.~~
+
+I have since been directed to [a posted notice](notice.jpg) in [a Reddit post](https://www.reddit.com/r/Portland/comments/hxdg73/portland_bureau_of_transportation_declares_the/) that points to T-0 being 2020-07-23 at 1:12PM.
 
 # Calculating The Fee
 

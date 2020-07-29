@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'Conv_LcdPhone-wgZ2';
-    src: url('lib/LcdPhone-wgZ2.eot');
-    src: local('☺'), url('lib/LcdPhone-wgZ2.woff') format('woff'), url('lib/LcdPhone-wgZ2.ttf') format('truetype'), url('lib/LcdPhone-wgZ2.svg') format('svg');
+    font-family: 'Conv_5x8_lcd_hd44780u_a02';
+    src: url('lib/5x8_lcd_hd44780u_a02.eot');
+    src: local('☺'), url('lib/5x8_lcd_hd44780u_a02.woff') format('woff'), url('lib/5x8_lcd_hd44780u_a02.ttf') format('truetype'), url('lib/5x8_lcd_hd44780u_a02.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,8 +13,7 @@ body {
 }
 
 #fine {
-    /* font-family: Conv_LcdPhone-wgZ2 */
-    font-family: monospace;
+    font-family: Conv_5x8_lcd_hd44780u_a02, monospace;
     text-align:center;
     font-size:72px;
     color: #3C412C;

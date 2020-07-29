@@ -6,14 +6,18 @@
     <script src="jquery-3.5.1.min.js"></script>
     <script src="index.js"></script>
 
-    <!-— b00kface open graph tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="The City of Portland is fining the Federal Government $500 every 15 minutes an illegal fence remains up. Let's watch the fines increase.">
+    <meta name="keywords" content="Portland, protest, protests, fence, fines, feds, federal, cease, desist">
+
+    <!-- b00kface open graph tags -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://fence.netninja.com"/>
     <meta property="og:title" content="Portland Fence Fines"/>
     <meta property="og:description" content="Up-to-the-second calculations of the Portland fence fines."/>
     <meta property="og:site_name" content="Portland Fence Fines"/>
     <meta property="og:image" content="https://fence.netninja.com/preview.jpg"/>
-    <!-— birdsite tags -->
+    <!-- birdsite tags -->
     <meta name="twitter:creator" content="@brianenigma" />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:domain" value="fence.netninja.com" />
@@ -30,7 +34,7 @@
 <h1>Background</h1>
 
 <p>
-    On July 23, 2020 Portland Bureau of Transportation (PBOT) sent a Cease & Desist demand to the federal troops occupying Portland, ordering the removal of a fence illegally blocking a downtown bike lane.
+    On July 23, 2020 Portland Bureau of Transportation (PBOT) sent a Cease &amp; Desist demand to the federal troops occupying Portland, ordering the removal of a fence illegally blocking a downtown bike lane.
 </p>
 <p>
     The feds not only didn't remove it, they didn't even respond.
@@ -52,13 +56,24 @@
     This is one of many actions taken against this illegal federal occupation since they arrived &mdash; uninvited and unwelcome &mdash; in Portland on July 4, 2020. Since their arrival to ostensibly protect a federal building, they have brutally assaulted nonviolent protesters every night. Using chemical weapons, "less-lethal" munitions, and stun grenades, these feds have consistently violated Portland citizens' constitutional right to assemble. They have injured many protesters, causing many to need hospitalization and surgery. Some are permanently disfigured due to their brutal tactics.
 </p>
 
+<div class="photobox">
+    <div class="photo"><img src="notice.jpg" /></div>
+    <div class="photocredit">Source: <a href="https://www.reddit.com/r/Portland/comments/hxdg73/portland_bureau_of_transportation_declares_the/">Reddit</a></div>
+</div>
+
+<h3>Changes</h3>
+
+<ul>
+    <li><code>2020-07-29, 11:46</code> : Updated with a more accurate start time, based on Removal Notice sign. Fancy LCD Font.</li>
+</ul>
+
 <h3>Technology</h3>
 
 <p>
     The source code and design documents live <a href="https://github.com/BrianEnigma/pdxfence">on GitHub as <code>pdxfence</code></a>.
     Check the readme file file there for the specific reasoning used to backsolve the T-0 (origin time) from which we
-    start accumulating fees. The project also includes a plea to folks that may know better for a more accurate
-    cease-and-desist time.
+    start accumulating fees. <s>The project also includes a plea to folks that may know better for a more accurate
+    cease-and-desist time.</s>
 </p>
 <p>
     This site is hosted through a static S3 bucket, with HTTPs support provided by CloudFront.

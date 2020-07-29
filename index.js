@@ -2,8 +2,8 @@
 const T0_YEAR = 2020;
 const T0_MONTH = 7;
 const T0_DAY = 23;
-const T0_HOUR = 12;
-const T0_MINUTE = 0;
+const T0_HOUR = 13;
+const T0_MINUTE = 12;
 const T0_SECOND = 0;
 
 const FEE_PER_SECOND = 500 / 15 / 60; // $500 per 15 minutes
