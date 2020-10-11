@@ -12,6 +12,10 @@ body {
     margin: 0 2em;
 }
 
+.cite, .cite a {
+    color:#999;
+}
+
 #fine {
     font-family: Conv_5x8_lcd_hd44780u_a02, monospace;
     text-align:center;
