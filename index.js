@@ -8,6 +8,8 @@ const T0_SECOND = 0;
 
 const FEE_PER_SECOND = 500 / 15 / 60; // $500 per 15 minutes
 
+const COUNTER_ENABLED = false;
+
 let T0 = new Date(T0_YEAR, T0_MONTH - 1 /*zero-based*/, T0_DAY, T0_HOUR, T0_MINUTE, T0_SECOND, 0);
 
 function calculateCurrentFine()
@@ -39,6 +41,8 @@ function updateDisplay()
 }
 
 $( document ).ready(function() {
-    updateDisplay();
-    setInterval(updateDisplay, 1000);
+    if (COUNTER_ENABLED) {
+        updateDisplay();
+        setInterval(updateDisplay, 1000);
+    }
 });
