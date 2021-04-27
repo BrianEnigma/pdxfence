@@ -69,3 +69,8 @@ td.r {
     padding-right:2em;
     padding-left:1em;
 }
+
+blockquote.sidebar {
+    border-left: solid blue 1px;
+    padding-left: 1em;
+}
